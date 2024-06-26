@@ -177,9 +177,9 @@ def get_playlist_details(channel_id):
 # )
 
 conn = mysql.connector.connect(
-    host='199.79.63.133',
-    user='sgptrrzs_YTScrap',    
-    password='Q7eT9@3O$Wqr5zd_W{' 
+    host='',
+    user='',    
+    password='' 
 )
 
 # Create cursor
