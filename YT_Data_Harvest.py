@@ -11,7 +11,7 @@ import re
 # -------------------------------------------------------------------------------------------- #
 
 #API Details
-api_key=""
+api_key="<api key"
 api_service_name = "youtube"
 api_version = "v3"
 youtube = build(api_service_name, api_version, developerKey=api_key)
@@ -168,19 +168,11 @@ def get_playlist_details(channel_id):
         return All_data
 
 # -------------------------------------------------------------------------------------------- #
-#Establish connection
-# conn = mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     password="Fiitjee@123",
-#     # database="YT_Scrap"
-# )
-
 def mysql_conn():
     return mysql.connector.connect(
-        host='',
-        user='',
-        password=''
+        host='<IP>',
+        user='<username>',
+        password='<password>'
         )
 
 #Connect to SQL
